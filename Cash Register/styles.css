@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(38, 38, 153);
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+
+h1{
+  font-family: cursive;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+#change-due{
+  margin-bottom: 50px;
+}
+
+#change-due span{
+  display: block;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+#cash-label{
+  font-size: 24px;
+  font-family: arial;
+}
+
+#cash{
+  width: 140px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+#purchase-btn{
+  margin-top: 40px;
+  width: 200px;
+  height: 35px;
+  color: black;
+  background-color: rgb(179, 179, 28);
+  border-radius: 15px;
+}
+
+#purchase-btn:hover{
+  background-color: rgb(248, 248, 245);
+  cursor: pointer;
+}
+
+#change-in-drawer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(151, 132, 132);
+  width: 270px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+#change-in-drawer span{
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+#total{
+  background-color: black;
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+}
